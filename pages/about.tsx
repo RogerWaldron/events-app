@@ -1,4 +1,6 @@
-export default function AboutPage() {
+import { NextPage } from "next"
+
+const AboutPage: NextPage = () => {
   return (
     <div>
         <h1>About Us</h1>
@@ -6,3 +8,5 @@ export default function AboutPage() {
     </div>
   )
 }
+
+export default AboutPage;
