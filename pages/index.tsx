@@ -7,14 +7,9 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Events App</title>
-        <meta name="description" content="Events app" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className={styles.main}>
         <h1>Events App</h1>
+
       </main>  
 
     </div>
